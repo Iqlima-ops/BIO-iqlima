@@ -62,7 +62,7 @@ function setupBackgroundMusic() {
     // Create audio element
     bgMusic = document.createElement("audio");
     bgMusic.id = "bg-music";
-    bgMusic.src = "../assets/bg_song.mp3";
+    bgMusic.src = "./assets/bg_song.mp3";
     bgMusic.loop = true;
     bgMusic.volume = 0.5; // Set volume to 50%
     bgMusic.preload = "auto";
